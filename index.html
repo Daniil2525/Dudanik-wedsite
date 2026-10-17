@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>DUDANIK STUDIO — сайты, игры и цифровые проекты на заказ</title>
+<meta name="description" content="Цифровая студия: сайты, браузерные игры, электронные книги и необычные персональные проекты на заказ. Цены от $10. Заказ через Telegram.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DUDANIK STUDIO — твою идею можно воплотить">
+<meta property="og:description" content="Сайты, браузерные игры, электронные книги и персональные подарки на заказ. Расскажи идею в Telegram.">
+<meta name="theme-color" content="#0a0b0f">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 36 36'%3E%3Crect width='36' height='36' rx='10' fill='%238b5cf6'/%3E%3Cpath d='M11 10h7a8 8 0 0 1 0 16h-7z' fill='none' stroke='%23fff' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap">
+<style>
+:root{--bg:#0a0b0f;--card:#10121a;--line:#222842;--tx:#f3f5fb;--mut:#9aa3bd;--b:#4f7cff;--v:#8b5cf6;--c:#22d3ee;--g:linear-gradient(120deg,#4f7cff,#8b5cf6)}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{background:var(--bg);color:var(--tx);font:400 16px/1.6 Manrope,Inter,system-ui,sans-serif;overflow-x:hidden;background-image:radial-gradient(60vw 40vw at 85% -10%,#4f7cff26,transparent),radial-gradient(50vw 40vw at 0% 30%,#8b5cf61c,transparent)}
+a{color:inherit;text-decoration:none}
+svg{display:block}
+.w{max-width:1120px;margin:0 auto;padding:0 20px}
+section{padding:72px 0}
+h1,h2,h3{line-height:1.12;letter-spacing:-.02em}
+h1{font-size:clamp(36px,6.4vw,66px);font-weight:800}
+h2{font-size:clamp(28px,4.4vw,42px);font-weight:800;margin-bottom:12px}
+h3{font-size:19px;font-weight:800}
+.lead{color:var(--mut);max-width:60ch}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:14px 24px;border-radius:14px;font-weight:800;border:1px solid var(--line);background:#161a2b;color:var(--tx);cursor:pointer;font:inherit;font-weight:800;transition:transform .2s,box-shadow .2s,border-color .2s}
+.btn:hover{transform:translateY(-2px);border-color:var(--b)}
+.btn.p{background:var(--g);border:0;box-shadow:0 8px 28px #4f7cff55}
+.btn.p:hover{box-shadow:0 12px 36px #8b5cf688}
+:focus-visible{outline:2px solid var(--c);outline-offset:3px}
+header{position:sticky;top:0;z-index:20;background:#0a0b0fcc;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+.hd{display:flex;align-items:center;justify-content:space-between;height:66px;gap:12px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:.02em}
+.logo small{color:var(--c);font-weight:600}
+nav{display:flex;gap:24px;color:var(--mut);font-weight:600;font-size:15px}
+nav a:hover{color:var(--tx)}
+.hero{padding:56px 0 40px}
+.hg{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center}
+.tag{display:inline-block;border:1px solid var(--line);border-radius:99px;padding:5px 14px;color:var(--c);font-size:13px;font-weight:600;margin-bottom:18px;background:#10121a}
+.hero h1 span{background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.hero p{color:var(--mut);margin:20px 0 28px;font-size:18px;max-width:52ch}
+.row{display:flex;gap:12px;flex-wrap:wrap}
+.art svg{width:100%;height:auto;overflow:visible}
+@keyframes fl{50%{transform:translateY(-12px)}}
+.fa{animation:fl 7s ease-in-out infinite}.fb{animation:fl 6s ease-in-out -2s infinite}.fc{animation:fl 8s ease-in-out -4s infinite}.fd{animation:fl 6.5s ease-in-out -1s infinite}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-top:32px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:22px;display:flex;flex-direction:column;gap:12px;transition:border-color .25s,transform .25s}
+.card:hover{border-color:#4f7cff88;transform:translateY(-3px)}
+.card .im{background:#0c0e15;border-radius:14px;border:1px solid #1b2033}
+.card ul{color:var(--mut);font-size:14px;padding-left:18px}
+.card .pr{font-weight:800;color:var(--c);font-size:15px}
+.card .tm{color:var(--mut);font-size:13px}
+.card .btn{margin-top:auto;justify-content:center}
+.note{color:var(--mut);font-size:14px;margin-top:20px}
+.wz{background:var(--card);border:1px solid var(--line);border-radius:24px;padding:28px;margin-top:28px;max-width:720px}
+.pg{height:4px;background:#1b2033;border-radius:4px;margin-bottom:20px}
+.pg i{display:block;height:100%;background:var(--g);border-radius:4px;transition:width .4s}
+.ops{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:10px;margin-top:16px}
+.ops button{padding:14px;border-radius:12px;border:1px solid var(--line);background:#0c0e15;color:var(--tx);font:inherit;font-weight:600;cursor:pointer;transition:.2s}
+.ops button:hover{border-color:var(--b);background:#4f7cff1f}
+.big{font-size:36px;font-weight:800;background:var(--g);-webkit-background-clip:text;background-clip:text;color:transparent}
+.steps{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:16px;margin-top:32px;counter-reset:s}
+.st{position:relative;background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}
+.st:before{counter-increment:s;content:"0" counter(s);position:absolute;top:16px;right:18px;color:#3a4366;font-weight:800;font-size:22px}
+.ic{width:46px;height:46px;border-radius:14px;background:var(--g);display:grid;place-items:center;margin-bottom:14px}
+.ic svg{width:24px;height:24px;fill:none;stroke:#fff;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.st p{color:var(--mut);font-size:14px;margin-top:6px}
+.pay{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;margin-top:28px}
+.pay ul{list-style:none;padding:0;display:grid;gap:12px}
+.pay li{padding-left:28px;position:relative;color:#d5dbee}
+.pay li:before{content:"";position:absolute;left:0;top:7px;width:12px;height:12px;border-radius:4px;background:var(--g)}
+.warn{border:1px solid #8b5cf666;background:#8b5cf614;border-radius:18px;padding:22px;align-self:start}
+.cta{background:linear-gradient(135deg,#1a2350,#2a1a55);border:1px solid #4f7cff55;border-radius:28px;padding:44px 28px;text-align:center}
+.cta p{color:#c4cbe6;max-width:56ch;margin:0 auto 24px}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px 20px;margin-top:10px}
+summary{cursor:pointer;font-weight:800;list-style:none;display:flex;justify-content:space-between;gap:12px}
+summary::-webkit-details-marker{display:none}
+summary:after{content:"+";color:var(--c);font-size:22px;line-height:1}
+details[open] summary:after{content:"–"}
+details p{color:var(--mut);margin-top:10px}
+.cts{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:28px}
+.ct{display:flex;align-items:center;gap:16px;padding:24px;border-radius:20px;border:1px solid var(--line);background:var(--card);transition:.25s}
+.ct:hover{transform:translateY(-3px);border-color:var(--c);box-shadow:0 10px 36px #22d3ee22}
+.ct svg{width:44px;height:44px;flex:none;color:#fff}
+.ct b{display:block;font-size:19px}.ct span{color:var(--mut);font-size:14px}
+footer{border-top:1px solid #ffffff12;padding:32px 0 96px;color:var(--mut);font-size:14px}
+.ft{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px}
+.ft div{display:flex;gap:18px;flex-wrap:wrap}
+.fab{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:30;padding:13px 20px;border-radius:99px;background:var(--g);font-weight:800;display:flex;gap:8px;align-items:center;box-shadow:0 8px 30px #4f7cff77;opacity:0;pointer-events:none;transform:translateY(12px);transition:.3s}
+.fab.on{opacity:1;pointer-events:auto;transform:none}
+.fab svg{width:20px;height:20px}
+.js .rv{opacity:0;transform:translateY(14px);transition:opacity .6s,transform .6s}
+.js .rv.on{opacity:1;transform:none}
+@media(max-width:820px){.hg,.pay{grid-template-columns:1fr}nav{display:none}section{padding:52px 0}.hero{padding-top:32px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#4f7cff"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
+<radialGradient id="gl"><stop offset="0" stop-color="#4f7cff" stop-opacity=".4"/><stop offset="1" stop-color="#4f7cff" stop-opacity="0"/></radialGradient></defs>
+<symbol id="tg" viewBox="0 0 24 24"><path d="M21.5 4.5L2.8 11.7l5.3 2 2.1 6.1 3.2-3.9 4.9 3.6z" fill="currentColor"/><path d="M8.1 13.7l9.6-6.4-7.5 8.5" fill="none" stroke="#0a0b0f" stroke-width="1.2" stroke-linejoin="round"/></symbol>
+<symbol id="tt" viewBox="0 0 24 24"><path d="M14 3v11.2a3.6 3.6 0 1 1-3.6-3.6M14 3c.4 2.6 2 4.2 4.6 4.6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header><div class="w hd">
+<a class="logo" href="#top" aria-label="DUDANIK STUDIO — на главную"><svg width="36" height="36" viewBox="0 0 36 36"><rect width="36" height="36" rx="10" fill="url(#g)"/><path d="M11 10h7a8 8 0 0 1 0 16h-7z" fill="none" stroke="#fff" stroke-width="3" stroke-linejoin="round"/><circle cx="27" cy="9" r="2.4" fill="#22d3ee"/></svg><span>DUDANIK <small>STUDIO</small></span></a>
+<nav aria-label="Разделы"><a href="#services">Услуги</a><a href="#pick">Подбор</a><a href="#process">Как заказать</a><a href="#pay">Оплата</a><a href="#faq">FAQ</a></nav>
+<a class="btn p" style="padding:10px 18px" href="https://t.me/dudanik4" data-msg="Привет! Хочу обсудить проект.">Написать</a>
+</div></header>
+
+<main id="top">
+<section class="hero"><div class="w hg">
+<div>
+<span class="tag">DIGITAL STUDIO</span>
+<h1>Твою идею можно <span>воплотить</span></h1>
+<p>Создаю сайты, браузерные игры, электронные книги и цифровые проекты на заказ. От простой страницы до необычной идеи, которую хочется показать всему миру.</p>
+<div class="row"><a class="btn p" href="https://t.me/dudanik4" data-msg="Привет! У меня есть идея для цифрового проекта. Хочу обсудить, как её можно реализовать.">Обсудить проект</a><a class="btn" href="#services">Посмотреть услуги</a></div>
+</div>
+<div class="art">
+<svg viewBox="0 0 480 420" role="img" aria-label="Композиция из окна сайта, электронной книги, игрового экрана и интерфейса приложения">
+<circle cx="240" cy="210" r="210" fill="url(#gl)"/>
+<g class="fa"><rect x="20" y="50" width="290" height="200" rx="14" fill="#12141c" stroke="#2c3350"/><path d="M20 64a14 14 0 0 1 14-14h262a14 14 0 0 1 14 14v18H20z" fill="#1b2033"/><circle cx="40" cy="66" r="4" fill="#4f7cff"/><circle cx="54" cy="66" r="4" fill="#8b5cf6"/><circle cx="68" cy="66" r="4" fill="#22d3ee"/><rect x="40" y="104" width="130" height="14" rx="7" fill="url(#g)"/><rect x="40" y="130" width="170" height="8" rx="4" fill="#2c3350"/><rect x="40" y="146" width="140" height="8" rx="4" fill="#2c3350"/><rect x="40" y="172" width="80" height="26" rx="8" fill="#22d3ee"/><rect x="214" y="100" width="80" height="100" rx="12" fill="url(#g)" opacity=".55"/><rect x="40" y="212" width="254" height="22" rx="6" fill="#1b2033"/></g>
+<g class="fb"><rect x="320" y="20" width="120" height="160" rx="10" fill="url(#g)"/><path d="M336 20v160" stroke="#0a0b0f" stroke-width="5" opacity=".5"/><rect x="350" y="50" width="76" height="9" rx="4" fill="#fff"/><rect x="350" y="68" width="54" height="6" rx="3" fill="#fff" opacity=".6"/><path d="M388 142l-16-16a9 9 0 0 1 16-11 9 9 0 0 1 16 11z" fill="#fff"/></g>
+<g class="fc"><rect x="250" y="236" width="200" height="140" rx="16" fill="#12141c" stroke="#2c3350"/><path d="M250 340h200v20a16 16 0 0 1-16 16H266a16 16 0 0 1-16-16z" fill="#1b2033"/><rect x="310" y="290" width="26" height="34" rx="8" fill="url(#g)"/><circle cx="318" cy="302" r="2.6" fill="#fff"/><circle cx="328" cy="302" r="2.6" fill="#fff"/><circle cx="400" cy="270" r="11" fill="#22d3ee"/><rect x="360" y="316" width="64" height="14" rx="4" fill="#8b5cf6" opacity=".7"/></g>
+<g class="fd"><rect x="30" y="280" width="190" height="110" rx="14" fill="#12141c" stroke="#2c3350"/><rect x="44" y="294" width="46" height="82" rx="8" fill="#1b2033"/><rect x="100" y="294" width="106" height="26" rx="8" fill="url(#g)" opacity=".7"/><path d="M104 362l24-26 18 14 26-30 26 22" fill="none" stroke="#22d3ee" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+</svg></div>
+</div></section>
+
+<section id="services"><div class="w">
+<h2 class="rv">Что можно заказать</h2>
+<p class="lead rv">Пять направлений. Все цены предварительные: итог зависит от функций и объёма и согласуется до начала работы. Иллюстрации — концепты оформления, а не работы клиентов.</p>
+<div class="grid" id="sv"></div>
+<p class="note">Если идеи нет в каталоге, напиши: сначала оценю, можно ли её реализовать, и предложу формат.</p>
+</div></section>
+
+<section id="pick"><div class="w">
+<h2 class="rv">Подбери формат проекта</h2>
+<p class="lead rv">Три вопроса, и станет понятно, с чего начать и сколько это примерно стоит.</p>
+<div class="wz" id="wz" aria-live="polite"></div>
+</div></section>
+
+<section id="process"><div class="w">
+<h2 class="rv">Как проходит заказ</h2>
+<div class="steps" id="stp"></div>
+<div class="row" style="margin-top:28px"><a class="btn p" href="https://t.me/dudanik4" data-msg="Привет! Хочу заказать проект, расскажу идею.">Заказать проект</a></div>
+</div></section>
+
+<section id="pay"><div class="w">
+<h2 class="rv">Оплата без сюрпризов</h2>
+<div class="pay">
+<ul class="rv"><li>Цена фиксируется до начала работы.</li><li>До оплаты ты получаешь описание заказа и согласованную стоимость.</li><li>Для небольших заказов возможна полная оплата после согласования условий.</li><li>Для крупных проектов можно договориться о предоплате и оплате остатка после демонстрации и проверки результата.</li><li>Размер предоплаты и условия возврата обсуждаются заранее.</li><li>Функции, не вошедшие в заказ, оцениваются отдельно.</li><li>Готовый результат передаётся после выполнения согласованных условий оплаты.</li></ul>
+<div class="warn rv"><h3>Условия — индивидуально</h3><p style="color:var(--mut);margin-top:8px">Условия каждого заказа согласовываются до начала работы. Онлайн-оплаты на сайте нет: способ оплаты мы обсуждаем в личной переписке.</p></div>
+</div></div></section>
+
+<section><div class="w"><div class="cta rv">
+<h2>Есть идея, но не знаешь, с чего начать?</h2>
+<p>Необязательно разбираться в программировании или дизайне. Просто расскажи, что хочешь получить, а мы вместе определим лучший формат проекта.</p>
+<a class="btn p" href="https://t.me/dudanik4" data-msg="Привет! У меня есть идея для цифрового проекта. Хочу обсудить, как её можно реализовать.">У меня есть идея</a>
+</div></div></section>
+
+<section id="faq"><div class="w">
+<h2 class="rv">Частые вопросы</h2>
+<div id="fq" style="max-width:780px"></div>
+</div></section>
+
+<section id="contact"><div class="w">
+<h2 class="rv">Есть идея? Напиши мне</h2>
+<p class="lead rv">Обсудить идею можно в Telegram, а посмотреть мои видео — в TikTok. Твоя идея может стать следующим проектом.</p>
+<div class="cts">
+<a class="ct" href="https://t.me/dudanik4" data-msg="Привет! Хочу обсудить проект." style="background:linear-gradient(135deg,#12204a,#10121a)"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#tg"/></svg><div><b>Telegram</b><span>Обсудить проект · @dudanik4</span></div></a>
+<a class="ct" href="https://www.tiktok.com/@dudanik4" target="_blank" rel="noopener" style="background:linear-gradient(135deg,#10242b,#10121a)"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#tt"/></svg><div><b>TikTok</b><span>Посмотреть мой профиль · @dudanik4</span></div></a>
+</div></div></section>
+</main>
+
+<footer><div class="w ft">
+<div style="flex-direction:column;gap:4px"><b style="color:var(--tx)">DUDANIK STUDIO</b><span>Твоя идея. Мой код. Готовый результат.</span><span>Цены предварительные и зависят от сложности проекта.</span></div>
+<div><a href="#services">Услуги</a><a href="#process">Как заказать</a><a href="#faq">FAQ</a><a href="https://t.me/dudanik4" data-msg="Привет! Хочу обсудить проект.">Telegram</a><a href="https://www.tiktok.com/@dudanik4" target="_blank" rel="noopener">TikTok</a></div>
+</div></footer>
+
+<a class="fab" id="fab" href="https://t.me/dudanik4" data-msg="Привет! Хочу обсудить проект." aria-label="Написать в Telegram"><svg viewBox="0 0 24 24" aria-hidden="true"><use href="#tg"/></svg>Написать</a>
+
+<script>
+(function(){
+document.documentElement.classList.add('js');
+var TG='https://t.me/dudanik4';
+function tg(t){return TG+'?text='+encodeURIComponent(t)}
+function links(){document.querySelectorAll('a[data-msg]').forEach(function(a){a.href=tg(a.dataset.msg);a.target='_blank';a.rel='noopener'})}
+
+var S=[
+{t:'Сайты на заказ',d:'Визитки, портфолио, лендинги и интерактивные сайты с анимациями.',i:['Сайт-визитка и личный сайт','Лендинг для продукта или услуги','Страница для блогера или события','Адаптив под телефон и компьютер'],p:'Простой от $15 · стандартный от $35 · продвинутый от $70 · интерактивный от $120',m:'от 2 дней',a:'<rect x="14" y="12" width="132" height="76" rx="8" fill="#12141c" stroke="#2c3350"/><path d="M14 20a8 8 0 0 1 8-8h116a8 8 0 0 1 8 8v6H14z" fill="#1b2033"/><circle cx="25" cy="19" r="2.5" fill="#4f7cff"/><circle cx="34" cy="19" r="2.5" fill="#8b5cf6"/><rect x="26" y="38" width="60" height="8" rx="4" fill="url(#g)"/><rect x="26" y="52" width="76" height="5" rx="2.5" fill="#2c3350"/><rect x="26" y="62" width="60" height="5" rx="2.5" fill="#2c3350"/><rect x="108" y="36" width="30" height="40" rx="6" fill="url(#g)" opacity=".5"/>'},
+{t:'Электронные книги и истории',d:'Личные истории, признания, интерактивные книги с выбором действий.',i:['Персональная книга или история','Оформление и иллюстрации','Интерактивные книги с выбором','Цифровые журналы и каталоги'],p:'Небольшая от $10 · с оформлением от $20 · интерактивная от $35 · большой проект от $50',m:'от 2 дней',a:'<path d="M48 12h60a6 6 0 0 1 6 6v64a6 6 0 0 1-6 6H48z" fill="url(#g)"/><path d="M48 12v76" stroke="#0a0b0f" stroke-width="4" opacity=".5"/><rect x="60" y="28" width="40" height="6" rx="3" fill="#fff"/><rect x="60" y="40" width="28" height="4" rx="2" fill="#fff" opacity=".6"/><path d="M80 74l-10-10a6 6 0 0 1 10-7 6 6 0 0 1 10 7z" fill="#fff"/><path d="M128 20l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#22d3ee"/>'},
+{t:'Персональные проекты',d:'Необычные подарки, признания и сюрпризы в виде страницы или истории.',i:['Сайт-признание или открытка','Страница с фото, музыкой и воспоминаниями','Цифровое приглашение','Интерактивный тест для друзей'],p:'Простой от $10 · с анимациями от $20 · интерактивный от $35 · сложный от $60',m:'от 1 дня',a:'<rect x="30" y="18" width="100" height="64" rx="10" fill="#12141c" stroke="#2c3350"/><path d="M80 68l-14-14a8 8 0 0 1 14-9 8 8 0 0 1 14 9z" fill="url(#g)"/><path d="M124 10l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" fill="#22d3ee"/><path d="M38 28l8 6 8-6" fill="none" stroke="#2c3350" stroke-width="2"/>'},
+{t:'Браузерные игры',d:'2D-игры для телефона и компьютера: от кликеров до игр с уровнями.',i:['Мини-игры, викторины, кликеры','Уровни, очки и достижения','Сохранение прогресса','Управление для телефона'],p:'Мини-игра от $20 · несколько механик от $40 · 2D-игра от $80 · сложный проект от $150',m:'от 5 дней',a:'<rect x="14" y="12" width="132" height="76" rx="10" fill="#12141c" stroke="#2c3350"/><path d="M14 70h132v8a10 10 0 0 1-10 10H24a10 10 0 0 1-10-10z" fill="#1b2033"/><rect x="58" y="44" width="22" height="26" rx="7" fill="url(#g)"/><circle cx="65" cy="54" r="2.2" fill="#fff"/><circle cx="73" cy="54" r="2.2" fill="#fff"/><circle cx="114" cy="30" r="8" fill="#22d3ee" opacity=".85"/><rect x="98" y="58" width="32" height="10" rx="3" fill="#8b5cf6" opacity=".7"/>'},
+{t:'Цифровые продукты',d:'Презентации, каталоги, калькуляторы и небольшие веб-приложения.',i:['Интерактивные презентации и каталоги','Онлайн-портфолио','Калькуляторы и браузерные инструменты','Проекты по твоему ТЗ'],p:'От $10 до $100 и выше — зависит от сложности',m:'оценю после обсуждения',a:'<rect x="22" y="12" width="116" height="76" rx="10" fill="#12141c" stroke="#2c3350"/><rect x="32" y="22" width="38" height="56" rx="5" fill="#1b2033"/><rect x="78" y="22" width="50" height="22" rx="5" fill="url(#g)" opacity=".7"/><path d="M80 70l10-12 8 7 10-14 12 12" fill="none" stroke="#22d3ee" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>'}
+];
+document.getElementById('sv').innerHTML=S.map(function(s){
+return '<article class="card rv"><div class="im"><svg viewBox="0 0 160 100" role="img" aria-label="Концепт: '+s.t+'">'+s.a+'</svg></div><h3>'+s.t+'</h3><p style="color:var(--mut);font-size:15px">'+s.d+'</p><ul>'+s.i.map(function(x){return '<li>'+x+'</li>'}).join('')+'</ul><div class="pr">'+s.p+'</div><div class="tm">Ориентир по сроку: '+s.m+'</div><a class="btn p" data-msg="Привет! Хочу заказать: '+s.t+'. Расскажу подробнее." href="'+TG+'">Заказать</a></article>'}).join('');
+
+var P=[['Идея','Рассказываешь, что хочешь получить: текстом, рисунком или примером сайта.','M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.500 1 2.500h6c0-1 .3-1.800 1-2.500A6 6 0 0 0 12 3z'],['Обсуждение','Уточняем функции, дизайн, сроки и бюджет. Я оцениваю, что можно реализовать.','M4 5h16v11H9l-5 4z'],['Цена и договорённости','До старта согласуем стоимость, состав проекта, число правок, формат результата и способ оплаты.','M3 12V4h8l10 10-8 8zM8 8h.01'],['Разработка','Создаю проект, проверяю его работу и показываю промежуточный результат в согласованном объёме.','M8 8l-5 4 5 4M16 8l5 4-5 4M14 5l-4 14'],['Передача проекта','Получаешь согласованный результат: ссылку, HTML-файл, книгу или другой формат.','M4 9h16v11H4zM3 6h18v3H3zM12 6v14']];
+document.getElementById('stp').innerHTML=P.map(function(p){return '<div class="st rv"><div class="ic"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="'+p[2]+'"/></svg></div><h3>'+p[0]+'</h3><p>'+p[1]+'</p></div>'}).join('');
+
+var F=[['Сколько стоит создание сайта?','Простой сайт — от $15, стандартный — от $35, продвинутый — от $70, сложный интерактивный проект — от $120. Цены предварительные: итог определяется после обсуждения требований.'],['Можно ли заказать проект, которого нет в каталоге?','Да. Расскажи идею, и я сначала оценю, можно ли её реализовать. Если задача окажется слишком сложной, скажу об этом честно и предложу вариант.'],['Сколько времени занимает разработка?','Зависит от объёма. Небольшой проект может занять пару дней, игра или большой сайт — дольше. Срок называю после обсуждения деталей.'],['Можно ли получить проект одним HTML-файлом?','Да, многие проекты можно передать одним файлом, который открывается в браузере на телефоне и компьютере.'],['Будет ли сайт доступен в интернете?','Для публичного сайта обычно нужен хостинг, а для собственного адреса — домен. Эти расходы могут не входить в стоимость разработки; подскажу, как опубликовать проект.'],['Можно ли потом изменять проект?','Да. Правки в согласованном объёме обсуждаются заранее, а новые функции оцениваются отдельно.'],['Как происходит оплата?','Цена фиксируется до начала работы. Небольшие заказы можно оплатить полностью после согласования, для крупных возможна предоплата, а остаток — после демонстрации результата. Условия обсуждаем индивидуально.'],['Можно ли сначала обсудить идею?','Да. Напиши в Telegram, расскажи, что хочешь, и мы вместе определим формат и примерную цену.'],['Что делать, если я не умею программировать?','Ничего не нужно уметь. Опиши идею словами, пришли рисунок или пример, а остальное я возьму на себя.'],['Можно ли заказать проект для телефона?','Да. Проекты делаю адаптивными, они работают на Android, iPhone, планшетах и компьютерах.']];
+document.getElementById('fq').innerHTML=F.map(function(f){return '<details class="rv"><summary>'+f[0]+'</summary><p>'+f[1]+'</p></details>'}).join('');
+
+var T={'Сайт':[15,35,70],'Игра':[20,40,80],'Электронная книга':[10,20,35],'Персональный подарок':[10,20,35],'Веб-приложение':[20,45,90],'Другая идея':[10,35,60]};
+var L=['Простой','Средний','Продвинутый','Пока не знаю'];
+var R=['Компактный проект с понятной структурой и без сложных функций.','Проект с несколькими функциями, анимациями и продуманным оформлением.','Объёмный проект с индивидуальной логикой и интерактивом.','Начнём с обсуждения: подберу формат и объём под твою идею.'];
+var B=[['До $15',15],['$15–35',35],['$35–70',70],['$70–150',150],['Более $150',9999],['Не определился',0]];
+var Q=[['Что тебе нужно?',Object.keys(T)],['Насколько сложным должен быть проект?',L],['Какой бюджет планируется?',B.map(function(b){return b[0]})]];
+var st=0,ans=[],wz=document.getElementById('wz');
+function draw(){
+if(st<3){
+wz.innerHTML='<div class="pg"><i style="width:'+(st*33+10)+'%"></i></div><h3>Шаг '+(st+1)+' из 3. '+Q[st][0]+'</h3><div class="ops">'+Q[st][1].map(function(o,i){return '<button type="button" data-i="'+i+'">'+o+'</button>'}).join('')+'</div>'+(st?'<button type="button" class="btn" style="margin-top:16px" id="bk">Назад</button>':'');
+wz.querySelectorAll('.ops button').forEach(function(b){b.onclick=function(){ans[st]=+b.dataset.i;st++;draw()}});
+var bk=document.getElementById('bk');if(bk)bk.onclick=function(){st--;draw()};
+return}
+var t=Q[0][1][ans[0]],li=ans[1],bu=B[ans[2]],base=T[t];
+var price=li<3?'от $'+base[li]:'от $'+base[0]+' и выше';
+var cmp=li<3?base[li]:base[0];
+var nt=(bu[1]&&bu[1]<cmp)?'Бюджет ниже ориентира, но проект можно упростить. Это обсудим.':'Точная стоимость зависит от конкретных функций и определяется после обсуждения.';
+var msg='Привет! Хочу обсудить проект. Что нужно: '+t+'. Сложность: '+L[li]+'. Бюджет: '+bu[0]+'. Ориентир с сайта: '+price+' (предварительно).';
+wz.innerHTML='<div class="pg"><i style="width:100%"></i></div><h3>Рекомендация: '+t+', '+L[li].toLowerCase()+'</h3><p style="color:var(--mut);margin:8px 0">'+R[li]+'</p><div class="big">'+price+'</div><p style="color:var(--mut);font-size:14px;margin:6px 0 18px">'+nt+'</p><div class="row"><a class="btn p" id="go">Обсудить мой проект</a><button type="button" class="btn" id="rs">Подобрать заново</button></div>';
+var go=document.getElementById('go');go.href=tg(msg);go.target='_blank';go.rel='noopener';
+document.getElementById('rs').onclick=function(){st=0;ans=[];draw()}}
+draw();
+
+links();
+var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add('on');io.unobserve(x.target)}})},{threshold:.1});
+document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+var fab=document.getElementById('fab');
+addEventListener('scroll',function(){fab.classList.toggle('on',scrollY>500)},{passive:true});
+})();
+</script>
+</body>
+</html>
